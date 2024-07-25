@@ -5,7 +5,9 @@ This project analyzes a large dataset of metadata from arXiv using PySpark and H
 
 # Key Objectives
 Data Exploration: Understand the structure and content of arXiv metadata, including fields like abstract, authors, and categories.
+
 Data Processing: Apply PySpark transformations to perform tasks such as filtering, mapping, and aggregating data.
+
 Optimization: Utilize techniques like caching, data persistence, and efficient transformations to optimize data processing.
 
 # Project Components
@@ -31,10 +33,10 @@ Lazy Evaluation: Spark optimizes the execution plan by delaying evaluation until
 Catalyst Optimizer: Optimizes the execution of DataFrame queries for performance improvements.
 
 # Technologies Used
-Apache Spark: Powerful engine for big data processing.
-Hadoop: Storage layer for managing large datasets.
-PySpark: Python interface for Apache Spark.
-Jupyter Notebook: Interactive environment for analysis and visualization.
+Apache Spark: Powerful engine for big data processing. <br/>
+Hadoop: Storage layer for managing large datasets. <br/>
+PySpark: Python interface for Apache Spark. <br/>
+Jupyter Notebook: Interactive environment for analysis and visualization. <br/>
 
 # Getting Started
 Installation
