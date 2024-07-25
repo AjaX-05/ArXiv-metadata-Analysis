@@ -22,6 +22,8 @@ join: Combine datasets based on common keys.
 Optimization Techniques:
 Caching (cache): Store intermediate results in memory to speed up subsequent operations.
 Persistence (persist): Persist RDDs in memory and disk to prevent recomputation.
+Handling Data Skewness with Salting: Introduce a random "salt" to keys in data to distribute skewed data evenly across partitions, preventing certain partitions from becoming bottlenecks due to uneven data distribution.
+
 
 # 2. DataFrame-Based Analysis
 Data Loading: Load JSON data into a structured DataFrame.
@@ -31,6 +33,8 @@ User-Defined Functions (UDFs): Extend Spark's functionality with custom function
 Optimization Techniques:
 Lazy Evaluation: Spark optimizes the execution plan by delaying evaluation until an action is called.
 Catalyst Optimizer: Optimizes the execution of DataFrame queries for performance improvements.
+Salting for Skewness: Similar to the RDD approach, salting is used in SQL-based operations to balance the load across partitions, mitigating the impact of data skewness.
+
 
 # Technologies Used
 Apache Spark: Powerful engine for big data processing. <br/>
